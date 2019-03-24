@@ -7,16 +7,16 @@
  */
 
 // Bar
-$cb-color: #272c3f;
-$cb-bg-color: #ffffff;
-$cb-border-color: #1a2038;
+$cb-color: #272c3f !default;
+$cb-bg-color: #ffffff !default;
+$cb-border-color: #1a2038 !default;
 
 // Button
-$cb-btn-color: #ffffff;
-$cb-btn-bg-color: #272c3f;
-$cb-btn-border-color: #272c3f;
-$cb-btn-border-radius: 30px;
+$cb-btn-color: #ffffff !default;
+$cb-btn-bg-color: #272c3f !default;
+$cb-btn-border-color: #272c3f !default;
+$cb-btn-border-radius: 30px !default;
 
 // Button active
-$cb-btn-bg-color-active: #c0b596;
-$cb-btn-color-active: #ffffff;
+$cb-btn-bg-color-active: #c0b596 !default;
+$cb-btn-color-active: #ffffff !default;
