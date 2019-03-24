@@ -132,7 +132,7 @@ $(function ()
             /**
              * Return cookie by name
              * @param name
-             * @return {*}
+             * @return {null|string}
              */
             getCookie: function (name)
             {

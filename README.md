@@ -50,4 +50,119 @@ If we get unknown cookie-names we will receive an e-mail to fix this.
         // Initialize cookieBar
         cookieBar.init();
     });
+    ```
+
+## API
+
+### Minimal configuration
+```javascript
+var cookieBar = $.CookieBar({
+    companyName: 'Your Developer company'
+});
+
+$.CookieBar(options).init();
+```
+
+## Settings
+```javascript
+var options = {
+    // Info about Developer company
+    companyName: null, // Wakers.cz
+    companyLink: null, // https://www.wakers.cz
+
+    // Messages
+    message: 'Tento web používá cookies k dosažení potřebné funkcionality. Jeho dalším používáním s tímto souhlasíte.',
+    btnMore: 'Více informací',
+    btnOk: 'Ok',
+
+    // Element ID & Agreement cookie name
+    elementId: '_cookie-bar',
+    cookieAgreementName: '_cookie-agreement-by19wakers', // Do not change prefix _cookie-agreement-*
+
+    // Callback for custom script loading
+    scriptsWithoutAgreement: function () {},
+    scriptsWithAgreement: function () {},
+}
+
+$.CookieBar(options).init();
+```
+
+### Methods
+
+```javascript
+/**
+ * Create object CookieBar 
+ */
+var cookieBar = $.CookieBar({
+    companyName: 'Your Developer company'
+});
+
+
+/**
+ * Initialize:
+ * - If visitor give you agreement it load scripts
+ * - If not it shows CookieBar.
+ */
+cookieBar.init();
+
+
+/**
+ * Append button events
+ */
+cookieBar.initBtnEvents();
+
+
+/**
+ * Return that visitor agreed or not
+ * @return {boolean}
+ */
+cookieBar.isAgreed();
+
+
+/**
+ * Remove all cookies from all paths
+ */
+cookieBar.removeAllCookies();
+
+
+/**
+ * Remove cookie from all paths
+ * @param name
+ */
+cookieBar.removeCookie(name);
+
+
+/**
+ * Return cookie by name
+ * @param name
+ * @return {null|string}
+ */
+cookieBar.getCookie(name);
+
+
+/**
+ * Return all saved cookie-names as string with "|" delimiter
+ * @return {string}
+ */
+cookieBar.getCookieNamesString();
+
+
+/**
+ * Return domain with HTTP / HTTPS
+ * @return {string}
+ */
+cookieBar.getSiteUrl();
+
+
+/**
+ * Return popup url
+ * @return {string}
+ */
+cookieBar.getPopupUrl();
+
+
+/**
+ * Create HTML cookie bar
+ */
+cookieBar.createBar();
 ```
