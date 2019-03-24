@@ -76,13 +76,13 @@ var options = {
     btnOk: 'Ok',
 
     // Element ID & Agreement cookie name
-    elementId: '_cookie-bar',
+    elementId: '_cookie-bar', // If you change this you have to change CSS or SCSS
     cookieAgreementName: '_cookie-agreement-by19wakers', // Do not change prefix _cookie-agreement-*
 
-    // Callback for custom script loading
+    // Callbacks for custom script loading
     scriptsWithoutAgreement: function () {},
-    scriptsWithAgreement: function () {},
-}
+    scriptsWithAgreement: function () {}
+};
 
 $.CookieBar(options).init();
 ```
