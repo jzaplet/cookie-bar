@@ -63,7 +63,7 @@ var options = {
 $.CookieBar(options).init();
 ```
 
-## Settings
+### Settings
 ```javascript
 var options = {
     // Info about Developer company
