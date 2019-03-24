@@ -1,0 +1,86 @@
+/**
+ *  Smart GDPR CookieBar
+ *
+ *  1. Main functionality
+ *  You cannot use marketing scripts without visitor agreement.
+ *  CookieBar load this scripts only if visitor accept the "cookie using".
+ *
+ *  2. Benefit
+ *  If anybody click on "Read more" button it collect data about your cookie-names (NOT values)
+ *  and our website (http://cookies.wakers.cz) show the "cookie GDPR conditions" based on this.
+ *  If we get unknown cookie-names we will receive an e-mail to fix this.
+ *
+ *  Copyright (c) 2019 Wakers.cz
+ *  @author Jiří Zapletal (http://www.wakers.cz, zapletal@wakers.cz)
+ *
+ *  DEPENDENCY:
+ *   - jQuery
+ */
+
+#_cookie-bar
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    line-height: 1;
+    color: #272c3f;
+    background-color: #fff;
+    border-top: 1px solid #1a2038;
+    padding: 10px 15px;
+}
+
+#_cookie-bar div
+{
+    float: right;
+    text-align: right;
+}
+
+#_cookie-bar div:first-child
+{
+    text-align: left;
+    float: left;
+    padding: 7.5px 0;
+    line-height: 2;
+}
+
+#_cookie-bar div button
+{
+    font-weight: bold;
+    background-color: #272c3f;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    -webkit-transition: 300ms ease all;
+    -moz-transition: 300ms ease all;
+    -ms-transition: 300ms ease all;
+    -o-transition: 300ms ease all;
+    transition: 300ms ease all;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+#_cookie-bar div button:hover,
+#_cookie-bar div button:active,
+#_cookie-bar div button:focus
+{
+    color: #fff;
+    background-color: #c0b596;
+}
+
+#_cookie-bar div button:first-child
+{
+    color: #272c3f;
+    text-decoration: underline;
+    background-color: transparent;
+    outline: none;
+}
+
+#_cookie-bar div button:first-child:hover,
+#_cookie-bar div button:first-child:active,
+#_cookie-bar div button:first-child:focus
+{
+    color: rgba(39, 44, 63, 0.8);
+}
