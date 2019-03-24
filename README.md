@@ -17,9 +17,9 @@ If we get unknown cookie-names we will receive an e-mail to fix this.
 
 2. Append SCSS / CSS and Script into your project:
     ```html
-        <link rel="stylesheet" href="node_modules/cookie-bar/src/css/cookie-bar.css">
+    <link href="node_modules/cookie-bar/src/css/cookie-bar.css" rel="stylesheet">
         
-        <script src="node_modules/cookie-bar/src/js/cookie-bar.js"></script>
+    <script src="node_modules/cookie-bar/src/js/cookie-bar.js"></script>
     ```
 
 3. Setup and Initialize
