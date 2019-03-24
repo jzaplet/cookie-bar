@@ -13,7 +13,7 @@ If we get unknown cookie-names we will receive an e-mail to fix this.
 
 ## Installation
 
-`npm i cookie-bar --save`
+`npm install jzaplet/cookie-bar --save`
 
 ## Usage
 ```javascript
