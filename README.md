@@ -56,9 +56,9 @@ If we get unknown cookie-names we will receive an e-mail to fix this.
 
 ### Minimal configuration
 ```javascript
-var cookieBar = $.CookieBar({
+var options = {
     companyName: 'Your Developer company'
-});
+};
 
 $.CookieBar(options).init();
 ```
