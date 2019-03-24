@@ -1,6 +1,20 @@
 /**
- * Copyright (c) 2019 Wakers.cz
- * @author Jiří Zapletal (http://www.wakers.cz, zapletal@wakers.cz)
+ *  Smart GDPR CookieBar
+ *
+ *  1. Main functionality
+ *  You cannot use marketing scripts without visitor agreement.
+ *  CookieBar load this scripts only if visitor accept the "cookie using".
+ *
+ *  2. Benefit
+ *  If anybody click on "Read more" button it collect data about your cookie-names (NOT values)
+ *  and our website (http://cookies.wakers.cz) show the "cookie GDPR conditions" based on this.
+ *  If we get unknown cookie-names we will receive an e-mail to fix this.
+ *
+ *  Copyright (c) 2019 Wakers.cz
+ *  @author Jiří Zapletal (http://www.wakers.cz, zapletal@wakers.cz)
+ *
+ *  DEPENDENCY:
+ *   - jQuery
  */
 
 // Bar
