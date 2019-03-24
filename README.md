@@ -1,28 +1,31 @@
 # Smart GDPR CookieBar
 
-1. **Main functionality:**
-You cannot use marketing scripts without visitor agreement. CookieBar load this scripts only if visitor accept the "cookie using".
+1. You must describe which cookies you use on the website and you cannot use marketing 
+cookies without visitor accept the "cookie using". **This CookieBar is sufficient basic solution**. 
+This CookieBar can load marketing scripts only if visitor accept the "cookie using".
 
-2. **Benefit:**
-If anybody click on "Read more" button it collect data about your cookie-names (NOT values)
-and our website (http://cookies.wakers.cz) show the "cookie GDPR conditions" based on this.
+2. **Benefit:** If anybody click on "Read more" button it collect data about your cookie-names (NOT values)
+and our website (http://cookies.wakers.cz) show the "cookie conditions" based on this.
 If we get unknown cookie-names we will receive an e-mail to fix this.
 
 ## Dependency:
-- jQuery
+- jQuery 3.3.1
 
 ## Installation
 
-1. `npm install jzaplet/cookie-bar --save`
+1. Install via NPM from Github: 
+    ```bash
+    npm install jzaplet/cookie-bar --save
+    ```
 
-2. Append SCSS / CSS and Script into your project:
+2. Append or build (scss) styles and script:
     ```html
     <link href="node_modules/cookie-bar/src/css/cookie-bar.css" rel="stylesheet">
         
     <script src="node_modules/cookie-bar/src/js/cookie-bar.js"></script>
     ```
 
-3. Setup and Initialize
+3. Setup and Initialize:
     ```javascript
     $(function ()
     {
