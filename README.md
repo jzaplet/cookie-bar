@@ -8,6 +8,8 @@ This CookieBar can load marketing scripts only if visitor accept the "cookie usi
 and our website (http://cookies.wakers.cz) show the "cookie conditions" based on this.
 If we get unknown cookie-names we will receive an e-mail to fix this.
 
+![CookieBar & Conditions](docs/example.png)
+
 ## Dependency:
 - jQuery 3.3.1
 
