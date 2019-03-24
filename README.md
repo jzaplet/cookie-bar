@@ -1,7 +1,7 @@
 # Smart GDPR CookieBar
 
 1. You must describe which cookies you use on the website and you cannot use marketing 
-cookies without visitor accept the "cookie using". **This CookieBar is sufficient basic solution**. 
+cookies without visitors accept "cookie using". **This CookieBar is sufficient basic solution**. 
 This CookieBar can load marketing scripts only if visitor accept the "cookie using".
 
 2. **Benefit:** If anybody click on "Read more" button it collect data about cookie-names (NOT values)
