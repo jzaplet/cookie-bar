@@ -4,7 +4,7 @@
 cookies without visitor accept the "cookie using". **This CookieBar is sufficient basic solution**. 
 This CookieBar can load marketing scripts only if visitor accept the "cookie using".
 
-2. **Benefit:** If anybody click on "Read more" button it collect data about your cookie-names (NOT values)
+2. **Benefit:** If anybody click on "Read more" button it collect data about cookie-names (NOT values)
 and our website (http://cookies.wakers.cz) show the "cookie conditions" based on this.
 If we get unknown cookie-names we will receive an e-mail to fix this.
 
