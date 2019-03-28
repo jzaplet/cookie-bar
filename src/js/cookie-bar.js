@@ -77,7 +77,7 @@ $(function ()
                 // Button OK
                 $(document).on('click', '#' + cookieBar.elementId + '_ok', function ()
                 {
-                    document.cookie = cookieBar.cookieAgreementName + '=1;path=/';
+                    document.cookie = cookieBar.cookieAgreementName + '=1; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
 
                     $('#' + cookieBar.elementId).remove();
 
